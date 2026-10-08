@@ -1,0 +1,40 @@
+#include<stdio.h>
+#define max5
+int main(void)
+{
+    int choice,pop,push,peek,display;
+printf("enter the insertion");
+switch (choice)
+    case 1:
+            pop()
+            break;
+    case 2:
+            push()
+            break;
+    case 3:
+            peek()
+            break;
+    case 4:
+            display()
+            break;
+    default:printf("invalid choice");        
+            break;    
+}
+
+// check for overflow. read an element(&values).increament top. assign value to array (top==max-1)
+
+void push()
+{
+    if(top==max-1)
+printf("stack overflow\n");
+printf("enter an element\n");
+scanf("%d",&value);
+a[++top]=value
+}
+
+// check for overflow. read an elements(&values). decreament top. assign value to array 
+
+void pop()
+{
+    if()
+}
